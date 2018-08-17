@@ -7,4 +7,26 @@
     // no need to specify the rows, because we're creating an implicit grid
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 6rem;
+    align-items: start;
+}
+
+.feature {
+    display: grid;
+    // no need for rows
+    grid-template-columns: min-content 1fr;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2.5rem; 
+
+    &__icon {
+        fill: $color-primary;
+        width: 4.5rem;
+        height: 4.5rem;
+        grid-row: 1 / span 2;
+        // to align the center of the icon to the text
+        transform: translateY(-1rem);
+    }
+
+    &__text {
+        font-size: 1.7rem;
+    }
 }
