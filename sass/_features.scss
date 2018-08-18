@@ -5,8 +5,11 @@
 
     display: grid;
     // no need to specify the rows, because we're creating an implicit grid
-    grid-template-columns: repeat(3, 1fr);
+    // grid-template-columns: repeat(3, 1fr);
+    // making the grid responsive without a media query! Based on this, CSS will add as many tracks to the grid as fit in the container
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 6rem;
+    // align the text of the paragraphs to the beginning
     align-items: start;
 }
 
