@@ -300,6 +300,9 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3.5rem; }
+  @media only screen and (max-width: 37.5em) {
+    .home {
+      grid-gap: 2rem; } }
   .home__image {
     width: 100%;
     grid-row: 1 / 2;
@@ -341,6 +344,9 @@ body {
       height: 2rem;
       width: 2rem;
       margin-right: 1rem; }
+  @media only screen and (max-width: 37.5em) {
+    .home__rooms, .home__price {
+      margin-left: 0; } }
   .home__btn {
     grid-column: 1 / -1; }
 

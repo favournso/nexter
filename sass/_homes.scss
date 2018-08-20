@@ -18,6 +18,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3.5rem;
 
+    @media only screen and (max-width: $bp-small) {
+        grid-gap: 2rem;
+    }
+
     &__image {
         width: 100%;
         grid-row: 1 / 2;
@@ -80,6 +84,14 @@
             height: 2rem;
             width: 2rem;
             margin-right: 1rem;
+        }
+    }
+
+    &__rooms,
+    &__price {
+
+        @media only screen and (max-width: $bp-small) {
+            margin-left: 0;
         }
     }
     
