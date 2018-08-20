@@ -11,6 +11,9 @@ html {
   @media only screen and (max-width: 75em) {
     html {
       font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   font-family: "Nunito", sans-serif;
@@ -303,7 +306,8 @@ body {
     width: 2.5rem;
     z-index: 10;
     justify-self: end;
-    margin: 1rem; }
+    margin: 1rem;
+    cursor: pointer; }
   .home__name {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
