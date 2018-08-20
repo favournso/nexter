@@ -11,6 +11,10 @@
     grid-gap: 6rem;
     // align the text of the paragraphs to the beginning
     align-items: start;
+
+    @media only screen and (max-width: $bp-small) {
+        margin: 6rem 0;
+    }
 }
 
 .feature {
