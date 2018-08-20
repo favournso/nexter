@@ -20,6 +20,9 @@ body {
   color: #6D5D4B;
   font-weight: 300;
   line-height: 1.6; }
+  body ::selection {
+    background-color: #c69963;
+    color: #f9f7f6; }
 
 .container {
   display: grid;
