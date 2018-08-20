@@ -156,7 +156,9 @@ body {
     justify-self: center; }
   .header__btn {
     align-self: start;
-    justify-self: start; }
+    justify-self: start;
+    text-decoration: none;
+    font-weight: 400; }
   .header__seenon-text {
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
